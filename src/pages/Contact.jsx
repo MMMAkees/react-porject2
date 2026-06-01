@@ -165,7 +165,7 @@ export default function Contact() {
           {/* Social links */}
           <div className="space-y-3 mb-10">
             <a
-              href="mailto:alex@mercer.dev"
+              href="mailto:mohamed@akees.dev"
               className="social-row flex items-center gap-4 p-4 border border-border group hover:border-accent transition-colors"
             >
               <div className="w-10 h-10 border border-border flex items-center justify-center text-dim group-hover:border-accent group-hover:text-accent transition-colors shrink-0">
@@ -185,7 +185,7 @@ export default function Contact() {
                   EMAIL
                 </p>
                 <p className="text-light text-sm group-hover:text-accent transition-colors">
-                  alex@mercer.dev
+                  mohamed@akees.dev
                 </p>
               </div>
             </a>
@@ -213,7 +213,7 @@ export default function Contact() {
                   GITHUB
                 </p>
                 <p className="text-light text-sm group-hover:text-accent transition-colors">
-                  github.com/alexmercer
+                  github.com/mohamedakees
                 </p>
               </div>
             </a>
@@ -239,7 +239,7 @@ export default function Contact() {
                   LINKEDIN
                 </p>
                 <p className="text-light text-sm group-hover:text-accent transition-colors">
-                  linkedin.com/in/alexmercer
+                  linkedin.com/in/mohamedakees
                 </p>
               </div>
             </a>
@@ -265,7 +265,7 @@ export default function Contact() {
                   TWITTER / X
                 </p>
                 <p className="text-light text-sm group-hover:text-accent transition-colors">
-                  @alexmercer_dev
+                  @mohamedakees_dev
                 </p>
               </div>
             </a>

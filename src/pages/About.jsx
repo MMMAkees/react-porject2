@@ -31,7 +31,7 @@ export default function About() {
           <div className="space-y-3 font-mono text-sm mb-8">
             <div className="flex gap-4">
               <span className="text-dim w-24">Name</span>
-              <span className="text-light">Alex Mercer</span>
+              <span className="text-light">Mohamed Akees</span>
             </div>
             <div className="flex gap-4">
               <span className="text-dim w-24">Role</span>
