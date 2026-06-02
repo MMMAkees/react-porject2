@@ -8,7 +8,7 @@ const Navbar = () => {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-bg/90 backdrop-blur-md border-b border-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-black border-b border-border">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <Link
           to="/"
@@ -62,7 +62,7 @@ const Navbar = () => {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="md:hidden text-soft"
+          className="md:hidden bg-black text-white p-2 rounded"
         >
           <svg
             width="22"
@@ -81,38 +81,38 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="flex flex-col border-t border-border bg-bg px-6 py-4 gap-4 md:hidden">
+        <div className="flex flex-col border-t border-white/20 bg-black px-6 py-4 gap-4 md:hidden">
           <Link
             to="/"
-            className={`text-sm transition-colors ${isActive("/") ? "text-accent" : "text-soft hover:text-accent"}`}
+            className="text-sm text-white transition-colors hover:opacity-80"
             onClick={() => setMobileMenuOpen(false)}
           >
             Home
           </Link>
           <Link
             to="/about"
-            className={`text-sm transition-colors ${isActive("/about") ? "text-accent" : "text-soft hover:text-accent"}`}
+            className="text-sm text-white transition-colors hover:opacity-80"
             onClick={() => setMobileMenuOpen(false)}
           >
             About
           </Link>
           <Link
             to="/skills"
-            className={`text-sm transition-colors ${isActive("/skills") ? "text-accent" : "text-soft hover:text-accent"}`}
+            className="text-sm text-white transition-colors hover:opacity-80"
             onClick={() => setMobileMenuOpen(false)}
           >
             Skills
           </Link>
           <Link
             to="/projects"
-            className={`text-sm transition-colors ${isActive("/projects") ? "text-accent" : "text-soft hover:text-accent"}`}
+            className="text-sm text-white transition-colors hover:opacity-80"
             onClick={() => setMobileMenuOpen(false)}
           >
             Projects
           </Link>
           <Link
             to="/contact"
-            className={`text-sm transition-colors ${isActive("/contact") ? "text-accent" : "text-soft hover:text-accent"}`}
+            className="text-sm text-white transition-colors hover:opacity-80"
             onClick={() => setMobileMenuOpen(false)}
           >
             Contact
